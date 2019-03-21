@@ -8,11 +8,11 @@ class SongsController < ApplicationController
 	end
 
 	def new
-		@song = song.new
+		@song = Song.new
 	end
 
 	def create
-	  @song = song.new(song_params)
+	  @song = Song.new(song_params)
 	  @song.save
 	  redirect_to song_path(@song)
 	end
