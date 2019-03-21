@@ -1,11 +1,11 @@
 require 'rails_helper'
 
 describe 'navigate' do
-  before do
-    @artist = Artist.create(name: "My Artist", bio: "My artist bio")
-    @genre = Genre.create(name: "My Genre")
-    @song = Song.create(name: "My Song", artist_id: @artist.id, genre_id: @genre.id)
-  end
+ # before do
+ #   @artist = Artist.create(name: "My Artist", bio: "My artist bio")
+ #   @genre = Genre.create(name: "My Genre")
+ #   @song = Song.create(name: "My Song", artist_id: @artist.id, genre_id: @genre.id)
+#  end
 
   #it 'shows the name on the show page in a h1 tag' do
    # visit song_path(@song.id)
@@ -31,10 +31,10 @@ describe 'navigate' do
 end
 
 describe 'form' do
-  before do
-    @artist = Artist.create(name: "My Artist", bio: "My artist bio")
-    @genre = Genre.create(name: "My Genre")
-  end
+#  before do
+#    @artist = Artist.create(name: "My Artist", bio: "My artist bio")
+# #   @genre = Genre.create(name: "My Genre")
+# end
 
   #it 'shows a new form that submits content and redirects and prints out params' do
    # visit new_song_path
@@ -64,11 +64,11 @@ describe 'form' do
 end
 
 describe 'index' do
-  before do
-    @artist = Artist.create(name: "My Artist", bio: "My artist bio")
-    @genre = Genre.create(name: "My Genre")
-    @song = Song.create(name: "My Song", artist_id: @artist.id, genre_id: @genre.id)
-  end
+ ## before do
+#    @artist = Artist.create(name: "My Artist", bio: "My artist bio")
+#    @genre = Genre.create(name: "My Genre")
+#    @song = Song.create(name: "My Song", artist_id: @artist.id, genre_id: @genre.id)
+ # end
 
  # it 'displays the song name' do
   #  visit songs_path
