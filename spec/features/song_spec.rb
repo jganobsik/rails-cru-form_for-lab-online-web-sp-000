@@ -72,7 +72,7 @@ describe 'index' do
 
  # it 'displays the song name' do
   #  visit songs_path
-    expect(page).to have_css("p", text: "My Song")
+  #  expect(page).to have_css("p", text: "My Song")
  # end
 
   
